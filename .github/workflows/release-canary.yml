@@ -1,9 +1,7 @@
 name: Release (beta)
 
 on:
-  push:
-    branches:
-      - next
+  workflow_dispatch:
 
 jobs:
   publish:

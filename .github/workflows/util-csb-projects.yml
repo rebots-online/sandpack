@@ -1,5 +1,6 @@
 name: Open In CodeSandbox
-on: pull_request
+on:
+  workflow_dispatch:
 
 jobs:
   open_in_codesandbox:
